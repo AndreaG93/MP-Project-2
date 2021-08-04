@@ -1,1 +1,1 @@
-# MP-Project-2
+# MP-Project-2 (also called "Live Wallpaper")
