@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/str_title_general_option">
+        <CheckBoxPreference
+            android:key="TouchEnabled"
+            android:title="@string/str_touch"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/str_title_live_wallpaper">
+        <ListPreference
+            android:title="@string/str_choose_wallpaper"
+            android:key="chosenLiveWallpaper"
+            android:entries="@array/LiveWallpaperChoice"
+            android:entryValues="@array/LiveWallpaperChoiceValues"
+            android:defaultValue="@string/str_pref_live_wallpaper_chose_values"/>
+
+        <EditTextPreference
+            android:key="fps"
+            android:title="@string/str_FPS"
+            android:persistent="true"
+            android:dialogTitle="@string/str_FPS"
+            android:inputType="number"
+            android:defaultValue="30" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
+

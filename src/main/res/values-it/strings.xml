@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Live Wallpaper</string>
+    <string name="str_FPS">Specifica gli FPS</string>
+    <string name="str_choose_wallpaper">Seleziona il tuo \'Live Wallpaper\' preferito</string>
+    <string name="str_title_general_option">Opzioni generali</string>
+    <string name="str_title_live_wallpaper">Live Wallpaper</string>
+    <string name="str_touch">Abilita gli \"Touch Events\"</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Live Wallpaper</string>
+    <string name="str_touch">Enable "Touch Events"</string>
+    <string name="str_choose_wallpaper">Choose your favourite \'Live Wallpaper\'</string>
+    <string name="str_FPS">Specify FPS</string>
+    <string name="str_title_general_option">General wallpaper option</string>
+    <string name="str_title_live_wallpaper">Live Wallpaper</string>
+    <string name="str_pref_live_wallpaper_chose_values" translatable="false">0</string>
+</resources>
